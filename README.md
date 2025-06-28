@@ -72,6 +72,7 @@ Run the following command in the repository root to normalize MIME types into Bu
 
 ```bash
 python -m "tools.unifier.mime_type" <path_to_XML_folder> -s
+# -s saves the changes back to XML; omit for dry run
 ```
 
 #### Example
@@ -153,6 +154,7 @@ Run the following command from the repository root to generate configuration fil
 
 ```bash
 python -W ignore -m "tools.generator.triplet_model_configs" -s <experiment_prefix> <experiment_suffix> <dataset_path> <model_output_path>
+# -s saves only the latest 15 models; omit to disable
 ```
 
 #### Example
@@ -174,7 +176,7 @@ If you want to train without K-Fold, modify the `embedding/wsimnet/config.json` 
 Then run the following:
 
 ```bash
-python -W ignore -m "embedding.wsimnet.train" -c <optional_config_file>
+python -W ignore -m "embedding.wsimnet.train" -c <config_file, optional>
 ```
 
 ### Run Inference
