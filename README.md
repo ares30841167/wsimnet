@@ -7,7 +7,7 @@ The current node features are as follows:
 | Feature Source         | Transformation Method | Output Vector             |
 |------------------------|------------------------|----------------------------|
 | URL Path Semantics      | FastText               | 300                        |
-| Javascript Semantics    | CodeBERT               | 768                        |
+| JavaScript Semantics    | CodeBERT               | 768                        |
 
 ## Environment Requirements
 
