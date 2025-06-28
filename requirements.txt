@@ -1,0 +1,29 @@
+# use python 3.12.2
+zss==1.2.0
+tqdm==4.66.4
+scipy==1.12.0
+matplotlib==3.8.3
+networkx==3.3.0
+pandas==2.2.2
+openpyxl==3.1.5
+scikit-learn==1.5.0
+numpy==1.26.4
+six==1.16.0
+elasticsearch==8.15.1
+python-dotenv==1.0.1
+chromadb==0.5.15
+lxml==5.3.0
+plotly==5.24.1
+imbalanced-learn==0.13.0
+umap-learn==0.5.7
+torch-geometric==2.6.1
+torchinfo==1.8.0
+fasttext==0.9.3
+beautifulsoup4==4.13.3
+
+# If you need to generate the visualization, please uncomment this module
+# In windows environment, you could use conda to install this module, that will be much easier
+# pygraphviz==1.13
+
+# You need to install the PyTorch 2.3.0 from conda or pip
+transformers==4.41.2

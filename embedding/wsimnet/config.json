@@ -1,0 +1,11 @@
+{
+    "exp_name": "vec_search_f1",
+    "batch_size": 128,
+    "epochs_triplet": 50,
+    "learning_rate_triplet": 1e-4,
+    "triplet_margin": 10,
+    "triplet_sampling_strategy": "random_sh",
+    "save_after": 5,
+    "dataset_path": "export/dataset",
+    "model_export_path": "export/models/embedding/wsimnet"
+}
